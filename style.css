@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courgette';
+}
+
+
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size:  50px;
+    color: palevioletred;
+    position: relative;
+    right: 160px;
+    top:20px;
+
+    /* border: 3px solid red; */
+}
+.btns{
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    position: relative;
+    right: 160px;
+    top:50px
+}
+#decreaseBtn, #resetBtn, #increaseBtn{
+    width:100px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    box-shadow:  12px 12px 2px 1px rgb(184, 131, 140);
+    background-color: rgb(252, 200, 209);
+    color:rgb(255, 254, 254);
+    font-size: 20px;
+}
+
+body{
+    width: 100%;
+    background-image: url(./assets/Pink-Spring-Flowers-2560x1600.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
